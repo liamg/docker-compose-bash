@@ -1,5 +1,5 @@
 FROM docker/compose:1.21.2
 
-RUN apt-get install -y bash
+RUN apk add bash
 
 ENTRYPOINT ["/bin/bash"]
